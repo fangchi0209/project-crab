@@ -1,0 +1,108 @@
+*{
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  box-sizing: border-box;
+  text-decoration: none;
+  text-align: center;
+}
+body{
+  font-family: 'Lato', sans-serif;
+  height: 100%;
+  background-color: black;
+  overflow: hidden;
+}
+.example::-webkit-scrollbar{
+  display: none;
+}
+.topBanner{
+  position: relative;
+  width: 100%;
+  height: 40px;
+  background: #ffffff;
+  color: #000000;
+  z-index: 5;
+}
+.topBanner a{
+  position: absolute;
+  padding:5px;
+  left: 1%;
+  font-size: 24px;
+  color: black;
+  z-index: 3;
+}
+.aboutBox a{
+  position:absolute;
+  padding: 5px;
+  left: 90%; /* QUESTION:  */
+  font-size: 24px;
+  z-index: 3;
+}
+.contentBox{
+  position: relative;
+  width: 100%;
+  height: 88%;
+  margin-top: 1px;
+}
+.introBlock{
+  position: relative;
+  float: left;
+  width:45%;
+  background-color: white;
+  margin-left: 1px;
+}
+.textCube{
+  position: relative;
+  width: 100%;
+  height:fit-content;
+  float:left;
+  top: 0;
+  padding: 10px;
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  text-align: left;
+  line-height: 1.5rem;
+  font-size: 18px;
+  font-weight: bolder;
+}
+.textCube p{
+  text-align: left;
+  padding-right: 5%;
+}
+.displayBox{
+  overflow-x: hidden;
+  overflow-y: auto;
+  position: absolute;
+  right: 1px;
+  max-width: 53%;
+  height: 100%;
+}
+
+.item{
+  height: fit-content;
+  max-width: 100%;
+  margin-bottom: 10px;
+}
+.container{
+  position: absolute;
+  width: 100%;
+  height: 5%;
+  background:white;
+  font-size: 24px;
+  z-index: 3;
+}
+ul{
+  list-style-type: none;
+  margin-left: 3%;
+}
+nav li{
+  float:left;
+  margin-right: 50px;
+}
+nav li:hover{
+  color: #7A918D;
+  opacity: 0.7; }
+a:link ,a:visited{
+  color: black;
+}
